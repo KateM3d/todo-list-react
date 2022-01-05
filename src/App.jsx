@@ -1,11 +1,11 @@
+import { List } from "./components/List";
 import "./App.scss";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1> Hello </h1>{" "}
+    <div className="container">
+      <h1>TO DO LIST</h1>
+      <List />
     </div>
   );
 }
-
-export default App;
